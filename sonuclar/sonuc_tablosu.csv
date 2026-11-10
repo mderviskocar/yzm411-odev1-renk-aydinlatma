@@ -1,0 +1,50 @@
+﻿hedef,deney,kosul,olcum,deger,birim,aciklama
+H1,sayisal_yapi,normal,H,1080,adet,
+H1,sayisal_yapi,normal,W,1440,adet,
+H1,sayisal_yapi,normal,C,3,adet,
+H1,sayisal_yapi,normal,min,0,0-255,
+H1,sayisal_yapi,normal,max,255,0-255,
+H1,sayisal_yapi,normal,ortalama_RGB_kanallari,149.52665787894375,0-255,
+H1,sayisal_yapi,golge,H,1152,adet,
+H1,sayisal_yapi,golge,W,1536,adet,
+H1,sayisal_yapi,golge,C,3,adet,
+H1,sayisal_yapi,golge,min,0,0-255,
+H1,sayisal_yapi,golge,max,246,0-255,
+H1,sayisal_yapi,golge,ortalama_RGB_kanallari,63.571882648232545,0-255,
+H1,sayisal_yapi,lamba,H,1152,adet,
+H1,sayisal_yapi,lamba,W,1536,adet,
+H1,sayisal_yapi,lamba,C,3,adet,
+H1,sayisal_yapi,lamba,min,0,0-255,
+H1,sayisal_yapi,lamba,max,255,0-255,
+H1,sayisal_yapi,lamba,ortalama_RGB_kanallari,125.94652321897907,0-255,
+H1,P1,normal,RGB,152;143;126,0-255,x=600; y=670
+H1,P2,normal,RGB,154;148;134,0-255,x=700; y=720
+H1,P3,normal,RGB,155;149;135,0-255,x=850; y=850
+H1,P1,golge,RGB,80;76;64,0-255,x=791; y=732
+H1,P2,golge,RGB,87;84;79,0-255,x=890; y=783
+H1,P3,golge,RGB,79;78;73,0-255,x=1037; y=912
+H1,P1,lamba,RGB,169;162;144,0-255,x=755; y=719
+H1,P2,lamba,RGB,166;164;149,0-255,x=846; y=778
+H1,P3,lamba,RGB,134;130;119,0-255,x=976; y=920
+H2,RGB,normal,alan_orani,7.551247427983539,%,Dogruluk olcutu degildir
+H2,RGB,normal,secilen_piksel,117437,piksel,
+H2,HSV,normal,alan_orani,9.813207304526749,%,Dogruluk olcutu degildir
+H2,HSV,normal,secilen_piksel,152615,piksel,
+H2,RGB,golge,alan_orani,0.03520824291087963,%,Dogruluk olcutu degildir
+H2,RGB,golge,secilen_piksel,623,piksel,
+H2,HSV,golge,alan_orani,7.67223216869213,%,Dogruluk olcutu degildir
+H2,HSV,golge,secilen_piksel,135758,piksel,
+H2,RGB,lamba,alan_orani,5.729392722800926,%,Dogruluk olcutu degildir
+H2,RGB,lamba,secilen_piksel,101380,piksel,
+H2,HSV,lamba,alan_orani,8.232512297453704,%,Dogruluk olcutu degildir
+H2,HSV,lamba,secilen_piksel,145672,piksel,
+H3,parlaklik_40,normal,ortalama_float,188.30167309670782,0-255,
+H3,parlaklik_40,normal,kirpilan_kanal,536360,kanal,
+H3,gama_05,normal,ortalama_float,188.1544499394322,0-255,
+H3,gama_05,normal,kirpilan_kanal,0,kanal,
+H3,gama_20,normal,ortalama_float,102.66562462764593,0-255,
+H3,gama_20,normal,kirpilan_kanal,0,kanal,
+H4,nearest,normal_yazi_kesiti,MAE_RGB,5.912214781746032,0-255,Okunabilirlik puani degildir
+H4,nearest,normal_yazi_kesiti,piksel_sayisi_orani,0.0625,oran,
+H4,area,normal_yazi_kesiti,MAE_RGB,4.221202876984127,0-255,Okunabilirlik puani degildir
+H4,area,normal_yazi_kesiti,piksel_sayisi_orani,0.0625,oran,

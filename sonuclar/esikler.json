@@ -1,0 +1,29 @@
+{
+  "normal_ROI_xyxy": [
+    45,
+    300,
+    105,
+    420
+  ],
+  "RGB_alt": [
+    138,
+    108,
+    30
+  ],
+  "RGB_ust": [
+    203,
+    178,
+    111
+  ],
+  "HSV_alt": [
+    14,
+    94,
+    63
+  ],
+  "HSV_ust": [
+    30,
+    206,
+    255
+  ],
+  "yontem": "Normal ROI yüzde 5/95; RGB marj 25; HSV marj H=7, S=35, V=100. Dahil sınırlar."
+}

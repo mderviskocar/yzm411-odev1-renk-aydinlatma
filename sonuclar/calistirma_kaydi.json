@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-10T14:43:19.621026+00:00",
+  "tahmin_kaydi": "sonuclar\\tahmin_kaydi.json",
+  "python": "3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]",
+  "paketler": {
+    "numpy": "2.2.6",
+    "opencv-python": "4.12.0.88",
+    "matplotlib": "3.10.7",
+    "Pillow": "12.1.1",
+    "pypdf": "6.7.5"
+  },
+  "deney_py_sha256": "f8abd82668b3b862f35c3bba4c6b2cd85f0d26af533669f6576c794fc96547bc",
+  "rapor_py_sha256": "a4f9d857ecb09955830532aab5ddcced409fbcc8d9e18908a377829b6268c5e6"
+}

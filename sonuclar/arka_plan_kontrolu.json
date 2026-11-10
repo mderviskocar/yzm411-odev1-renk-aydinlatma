@@ -1,0 +1,27 @@
+{
+  "ROI_xyxy": [
+    20,
+    1025,
+    230,
+    1070
+  ],
+  "RGB_secilen": 0,
+  "RGB_alan_yuzde": 0.0,
+  "HSV_secilen": 9247,
+  "HSV_alan_yuzde": 97.85185185185185,
+  "toplam_piksel": 9450,
+  "ornek_xy": [
+    69,
+    1047
+  ],
+  "ornek_RGB": [
+    72,
+    55,
+    37
+  ],
+  "ornek_HSV": [
+    15,
+    124,
+    72
+  ]
+}

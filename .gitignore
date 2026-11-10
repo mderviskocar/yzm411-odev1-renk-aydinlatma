@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+tmp/
+teslim/*
+*.zip
+!teslim/YZM411_Odev1_230212067.zip
+normal_isik_dondurulmus.png

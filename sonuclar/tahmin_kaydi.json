@@ -1,0 +1,14 @@
+{
+  "ilk_deney_oncesi_utc": "2026-11-10T14:38:32.418155+00:00",
+  "sha256": "0e74b396b9a40834b6b8afbd26e499a3bc788d6fbff4e019a55c4982c22b22e7",
+  "tahminler": {
+    "yazan": "OpenAI ChatGPT / Codex",
+    "aciklama": "Deney kodu ilk kez çalıştırılmadan önce yazılan tahminler. Öğrencinin kendi önceden yazdığı tahminler olarak sunulmaz.",
+    "H1": "Aynı fiziksel kâğıt bölgesindeki üç noktanın RGB değerlerinin ışık koşulları arasında değişmesini bekliyorum. Aydınlatma ve olası otomatik kamera ayarları kanal değerlerini birlikte etkileyebilir.",
+    "H2": "Gölgede sabit RGB maskesinin alan oranının normal ışığa göre azalmasını, HSV oranının ise daha az değişmesini bekliyorum. HSV tonu parlaklıktan kısmen ayırır; ancak doygunluk, parlama ve lambanın rengi nedeniyle tam dayanıklılık beklemiyorum.",
+    "H3_parlaklik": "Parlaklık +40 işleminde görüntü ortalamasının tam 40 artacağını ilk yaklaşım olarak tahmin ediyorum. Bu tahmin hiçbir kanal değerinin 255 sınırında kırpılmadığını varsayar; ölçüm bu varsayımı sınayacaktır.",
+    "H3_gama_05": "Gama 0,5 dönüşümünde görüntü ortalamasının artmasını bekliyorum. 0 ile 1 arasındaki normalize değerlerin karekökü daha büyük olduğundan özellikle koyu ve orta tonlar aydınlanacaktır.",
+    "H3_gama_20": "Gama 2,0 dönüşümünde görüntü ortalamasının azalmasını bekliyorum. Normalize değerlerin karesi daha küçük olduğundan orta tonlar kararacaktır.",
+    "H4": "Her iki yöntemde de dörtte bire küçülünce ince yazı ayrıntılarının kaybolmasını bekliyorum. En yakın komşuda kesintili çizgi ve yapay desen, alan ortalamasında daha düzgün fakat gri ve silik harfler bekliyorum."
+  }
+}

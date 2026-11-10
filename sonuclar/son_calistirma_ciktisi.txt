@@ -1,0 +1,158 @@
+﻿{
+  "ortalama": 149.52665787894375,
+  "esikler": {
+    "normal_ROI_xyxy": [
+      45,
+      300,
+      105,
+      420
+    ],
+    "RGB_alt": [
+      138,
+      108,
+      30
+    ],
+    "RGB_ust": [
+      203,
+      178,
+      111
+    ],
+    "HSV_alt": [
+      14,
+      94,
+      63
+    ],
+    "HSV_ust": [
+      30,
+      206,
+      255
+    ],
+    "yontem": "Normal ROI yüzde 5/95; RGB marj 25; HSV marj H=7, S=35, V=100. Dahil sınırlar."
+  },
+  "maskeler": [
+    {
+      "kosul": "normal",
+      "uzay": "RGB",
+      "secilen_piksel": 117437,
+      "toplam_piksel": 1555200,
+      "alan_orani_yuzde": 7.551247427983539
+    },
+    {
+      "kosul": "normal",
+      "uzay": "HSV",
+      "secilen_piksel": 152615,
+      "toplam_piksel": 1555200,
+      "alan_orani_yuzde": 9.813207304526749
+    },
+    {
+      "kosul": "golge",
+      "uzay": "RGB",
+      "secilen_piksel": 623,
+      "toplam_piksel": 1769472,
+      "alan_orani_yuzde": 0.03520824291087963
+    },
+    {
+      "kosul": "golge",
+      "uzay": "HSV",
+      "secilen_piksel": 135758,
+      "toplam_piksel": 1769472,
+      "alan_orani_yuzde": 7.67223216869213
+    },
+    {
+      "kosul": "lamba",
+      "uzay": "RGB",
+      "secilen_piksel": 101380,
+      "toplam_piksel": 1769472,
+      "alan_orani_yuzde": 5.729392722800926
+    },
+    {
+      "kosul": "lamba",
+      "uzay": "HSV",
+      "secilen_piksel": 145672,
+      "toplam_piksel": 1769472,
+      "alan_orani_yuzde": 8.232512297453704
+    }
+  ],
+  "donusumler": [
+    {
+      "donusum": "parlaklik_40",
+      "once_ortalama": 149.52665787894375,
+      "sonra_float_ortalama": 188.30167309670782,
+      "sonra_uint8_ortalama": 188.30167309670782,
+      "float_ortalama_degisim": 38.775015217764064,
+      "kirpilan_kanal_sayisi": 536360,
+      "kirpilan_piksel_sayisi": 254666,
+      "naif_tahmin_ortalama": 189.52665787894375,
+      "kirpma_nedeniyle_ortalama_kayip": 1.2249847822359397
+    },
+    {
+      "donusum": "gama_05",
+      "once_ortalama": 149.52665787894375,
+      "sonra_float_ortalama": 188.1544499394322,
+      "sonra_uint8_ortalama": 188.1638089420439,
+      "float_ortalama_degisim": 38.627792060488446,
+      "kirpilan_kanal_sayisi": 0,
+      "kirpilan_piksel_sayisi": 0,
+      "naif_tahmin_ortalama": "",
+      "kirpma_nedeniyle_ortalama_kayip": 0
+    },
+    {
+      "donusum": "gama_20",
+      "once_ortalama": 149.52665787894375,
+      "sonra_float_ortalama": 102.66562462764593,
+      "sonra_uint8_ortalama": 102.64843492798354,
+      "float_ortalama_degisim": -46.861033251297826,
+      "kirpilan_kanal_sayisi": 0,
+      "kirpilan_piksel_sayisi": 0,
+      "naif_tahmin_ortalama": "",
+      "kirpma_nedeniyle_ortalama_kayip": 0
+    }
+  ],
+  "esleme": {
+    "golge": {
+      "eslesme": 397,
+      "inlier": 313,
+      "medyan_hata_px": 0.9783132076263428,
+      "H": [
+        [
+          1.0215965215535632,
+          0.046785163488689725,
+          175.7961867090377
+        ],
+        [
+          0.008296889772042067,
+          1.0668088679482481,
+          39.12607569666112
+        ],
+        [
+          -1.3471110447107831e-05,
+          6.631769595799243e-05,
+          1.0
+        ]
+      ]
+    },
+    "lamba": {
+      "eslesme": 516,
+      "inlier": 420,
+      "medyan_hata_px": 1.0407383441925049,
+      "H": [
+        [
+          0.9468559657364217,
+          -0.102080363450785,
+          252.98689437802915
+        ],
+        [
+          0.1090155047044404,
+          0.9494625849034927,
+          15.329758017758857
+        ],
+        [
+          -6.1954796429965655e-06,
+          2.824979110564489e-07,
+          1.0
+        ]
+      ]
+    }
+  },
+  "rapor": "output/pdf/YZM411_Odev1_230212067_Rapor.pdf"
+}

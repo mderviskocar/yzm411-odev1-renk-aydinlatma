@@ -1,0 +1,383 @@
+{
+  "kimlik": {
+    "ad_soyad": "Muhammed Derviş Koçar",
+    "ogrenci_no": "230212067",
+    "fotograf_kaynagi": "Öğrencinin beyanına göre üç fotoğraf kendi kamera çekimidir ve üretici yapay zekâ ile düzenlenmemiştir.",
+    "otomatik_pozlama": "Bilinmiyor",
+    "beyaz_dengesi": "Bilinmiyor"
+  },
+  "tahmin_sha256": "0e74b396b9a40834b6b8afbd26e499a3bc788d6fbff4e019a55c4982c22b22e7",
+  "kaynak_sha256": {
+    "01_normal.jpg": "78a307e102af20b558bce6ec2677f6562a140cd6f020fd3ab7cf2a45065059df",
+    "02_golge.jpg": "7ecf397a0d652865cf930b7dc94d48102c2227e889db65d8262f61487b4c2852",
+    "03_lamba.jpg": "1e81490be7dd199494521c0f411a11380efc0351235ec2b01807cdd8d13f485a"
+  },
+  "goruntuler": [
+    {
+      "kosul": "normal",
+      "H": 1080,
+      "W": 1440,
+      "C": 3,
+      "dtype": "uint8",
+      "min": 0,
+      "max": 255,
+      "ortalama_RGB_kanallari": 149.52665787894375,
+      "exif": {}
+    },
+    {
+      "kosul": "golge",
+      "H": 1152,
+      "W": 1536,
+      "C": 3,
+      "dtype": "uint8",
+      "min": 0,
+      "max": 246,
+      "ortalama_RGB_kanallari": 63.571882648232545,
+      "exif": {}
+    },
+    {
+      "kosul": "lamba",
+      "H": 1152,
+      "W": 1536,
+      "C": 3,
+      "dtype": "uint8",
+      "min": 0,
+      "max": 255,
+      "ortalama_RGB_kanallari": 125.94652321897907,
+      "exif": {}
+    }
+  ],
+  "esikler": {
+    "normal_ROI_xyxy": [
+      45,
+      300,
+      105,
+      420
+    ],
+    "RGB_alt": [
+      138,
+      108,
+      30
+    ],
+    "RGB_ust": [
+      203,
+      178,
+      111
+    ],
+    "HSV_alt": [
+      14,
+      94,
+      63
+    ],
+    "HSV_ust": [
+      30,
+      206,
+      255
+    ],
+    "yontem": "Normal ROI yüzde 5/95; RGB marj 25; HSV marj H=7, S=35, V=100. Dahil sınırlar."
+  },
+  "piksel_degerleri": [
+    {
+      "nokta": "P1",
+      "kosul": "normal",
+      "x": 600,
+      "y": 670,
+      "R": 152,
+      "G": 143,
+      "B": 126
+    },
+    {
+      "nokta": "P2",
+      "kosul": "normal",
+      "x": 700,
+      "y": 720,
+      "R": 154,
+      "G": 148,
+      "B": 134
+    },
+    {
+      "nokta": "P3",
+      "kosul": "normal",
+      "x": 850,
+      "y": 850,
+      "R": 155,
+      "G": 149,
+      "B": 135
+    },
+    {
+      "nokta": "P1",
+      "kosul": "golge",
+      "x": 791,
+      "y": 732,
+      "R": 80,
+      "G": 76,
+      "B": 64
+    },
+    {
+      "nokta": "P2",
+      "kosul": "golge",
+      "x": 890,
+      "y": 783,
+      "R": 87,
+      "G": 84,
+      "B": 79
+    },
+    {
+      "nokta": "P3",
+      "kosul": "golge",
+      "x": 1037,
+      "y": 912,
+      "R": 79,
+      "G": 78,
+      "B": 73
+    },
+    {
+      "nokta": "P1",
+      "kosul": "lamba",
+      "x": 755,
+      "y": 719,
+      "R": 169,
+      "G": 162,
+      "B": 144
+    },
+    {
+      "nokta": "P2",
+      "kosul": "lamba",
+      "x": 846,
+      "y": 778,
+      "R": 166,
+      "G": 164,
+      "B": 149
+    },
+    {
+      "nokta": "P3",
+      "kosul": "lamba",
+      "x": 976,
+      "y": 920,
+      "R": 134,
+      "G": 130,
+      "B": 119
+    }
+  ],
+  "esleme": {
+    "golge": {
+      "eslesme": 397,
+      "inlier": 313,
+      "medyan_hata_px": 0.9783132076263428,
+      "H": [
+        [
+          1.0215965215535632,
+          0.046785163488689725,
+          175.7961867090377
+        ],
+        [
+          0.008296889772042067,
+          1.0668088679482481,
+          39.12607569666112
+        ],
+        [
+          -1.3471110447107831e-05,
+          6.631769595799243e-05,
+          1.0
+        ]
+      ]
+    },
+    "lamba": {
+      "eslesme": 516,
+      "inlier": 420,
+      "medyan_hata_px": 1.0407383441925049,
+      "H": [
+        [
+          0.9468559657364217,
+          -0.102080363450785,
+          252.98689437802915
+        ],
+        [
+          0.1090155047044404,
+          0.9494625849034927,
+          15.329758017758857
+        ],
+        [
+          -6.1954796429965655e-06,
+          2.824979110564489e-07,
+          1.0
+        ]
+      ]
+    }
+  },
+  "maske_alanlari": [
+    {
+      "kosul": "normal",
+      "uzay": "RGB",
+      "secilen_piksel": 117437,
+      "toplam_piksel": 1555200,
+      "alan_orani_yuzde": 7.551247427983539,
+      "esik_sha256": "6dbed814a4c9ae03ddf553aeb7e00375130fa0a42bb2d2d9d0a8ee0990dca175"
+    },
+    {
+      "kosul": "normal",
+      "uzay": "HSV",
+      "secilen_piksel": 152615,
+      "toplam_piksel": 1555200,
+      "alan_orani_yuzde": 9.813207304526749,
+      "esik_sha256": "6dbed814a4c9ae03ddf553aeb7e00375130fa0a42bb2d2d9d0a8ee0990dca175"
+    },
+    {
+      "kosul": "golge",
+      "uzay": "RGB",
+      "secilen_piksel": 623,
+      "toplam_piksel": 1769472,
+      "alan_orani_yuzde": 0.03520824291087963,
+      "esik_sha256": "6dbed814a4c9ae03ddf553aeb7e00375130fa0a42bb2d2d9d0a8ee0990dca175"
+    },
+    {
+      "kosul": "golge",
+      "uzay": "HSV",
+      "secilen_piksel": 135758,
+      "toplam_piksel": 1769472,
+      "alan_orani_yuzde": 7.67223216869213,
+      "esik_sha256": "6dbed814a4c9ae03ddf553aeb7e00375130fa0a42bb2d2d9d0a8ee0990dca175"
+    },
+    {
+      "kosul": "lamba",
+      "uzay": "RGB",
+      "secilen_piksel": 101380,
+      "toplam_piksel": 1769472,
+      "alan_orani_yuzde": 5.729392722800926,
+      "esik_sha256": "6dbed814a4c9ae03ddf553aeb7e00375130fa0a42bb2d2d9d0a8ee0990dca175"
+    },
+    {
+      "kosul": "lamba",
+      "uzay": "HSV",
+      "secilen_piksel": 145672,
+      "toplam_piksel": 1769472,
+      "alan_orani_yuzde": 8.232512297453704,
+      "esik_sha256": "6dbed814a4c9ae03ddf553aeb7e00375130fa0a42bb2d2d9d0a8ee0990dca175"
+    }
+  ],
+  "arka_plan_kontrolu": {
+    "ROI_xyxy": [
+      20,
+      1025,
+      230,
+      1070
+    ],
+    "RGB_secilen": 0,
+    "RGB_alan_yuzde": 0.0,
+    "HSV_secilen": 9247,
+    "HSV_alan_yuzde": 97.85185185185185,
+    "toplam_piksel": 9450,
+    "ornek_xy": [
+      69,
+      1047
+    ],
+    "ornek_RGB": [
+      72,
+      55,
+      37
+    ],
+    "ornek_HSV": [
+      15,
+      124,
+      72
+    ]
+  },
+  "donusumler": [
+    {
+      "donusum": "parlaklik_40",
+      "once_ortalama": 149.52665787894375,
+      "sonra_float_ortalama": 188.30167309670782,
+      "sonra_uint8_ortalama": 188.30167309670782,
+      "float_ortalama_degisim": 38.775015217764064,
+      "kirpilan_kanal_sayisi": 536360,
+      "kirpilan_piksel_sayisi": 254666,
+      "naif_tahmin_ortalama": 189.52665787894375,
+      "kirpma_nedeniyle_ortalama_kayip": 1.2249847822359397
+    },
+    {
+      "donusum": "gama_05",
+      "once_ortalama": 149.52665787894375,
+      "sonra_float_ortalama": 188.1544499394322,
+      "sonra_uint8_ortalama": 188.1638089420439,
+      "float_ortalama_degisim": 38.627792060488446,
+      "kirpilan_kanal_sayisi": 0,
+      "kirpilan_piksel_sayisi": 0,
+      "naif_tahmin_ortalama": "",
+      "kirpma_nedeniyle_ortalama_kayip": 0
+    },
+    {
+      "donusum": "gama_20",
+      "once_ortalama": 149.52665787894375,
+      "sonra_float_ortalama": 102.66562462764593,
+      "sonra_uint8_ortalama": 102.64843492798354,
+      "float_ortalama_degisim": -46.861033251297826,
+      "kirpilan_kanal_sayisi": 0,
+      "kirpilan_piksel_sayisi": 0,
+      "naif_tahmin_ortalama": "",
+      "kirpma_nedeniyle_ortalama_kayip": 0
+    }
+  ],
+  "ornekleme": [
+    {
+      "yontem": "nearest",
+      "giris_W": 560,
+      "giris_H": 240,
+      "kucuk_W": 140,
+      "kucuk_H": 60,
+      "piksel_sayisi_orani": 0.0625,
+      "yeniden_buyutme_MAE_RGB": 5.912214781746032
+    },
+    {
+      "yontem": "area",
+      "giris_W": 560,
+      "giris_H": 240,
+      "kucuk_W": 140,
+      "kucuk_H": 60,
+      "piksel_sayisi_orani": 0.0625,
+      "yeniden_buyutme_MAE_RGB": 4.221202876984127
+    }
+  ],
+  "python": "3.10.9",
+  "paketler": {
+    "numpy": "2.2.6",
+    "opencv-python": "4.12.0.88",
+    "matplotlib": "3.10.7",
+    "Pillow": "12.1.1",
+    "pypdf": "6.7.5"
+  },
+  "parametreler": {
+    "b": 40,
+    "gamma": [
+      0.5,
+      2.0
+    ],
+    "olcek_kenar": 0.25,
+    "yazi_ROI_xyxy": [
+      415,
+      380,
+      975,
+      620
+    ],
+    "piksel_noktasi_normal_xy": [
+      [
+        600.0,
+        670.0
+      ],
+      [
+        700.0,
+        720.0
+      ],
+      [
+        850.0,
+        850.0
+      ]
+    ]
+  },
+  "sinirlar": [
+    "Kamera/kadraj ve perspektif değişti; ışık tek bağımsız değişken değildir.",
+    "Otomatik pozlama ve beyaz dengesi bilinmiyor; mevcut EXIF bunları doğrulamıyor.",
+    "Homografi kâğıt düzlemi için yaklaşık nokta eşlemesidir; şişeye uygulanmaz.",
+    "Maske oranı doğruluk değildir. Etiketli gerçek maske olmadığı için başarı ölçülmedi.",
+    "Tahminler ve açıklamalar Codex yardımıyla hazırlanmıştır."
+  ]
+}

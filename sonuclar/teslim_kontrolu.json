@@ -1,0 +1,35 @@
+{
+  "durum": "BASARILI",
+  "kaynak_jpg_kopyalari_birebir_ayni": true,
+  "paket_icinden_42_kontrol": "BASARILI",
+  "csv_karsilastirma": [
+    {
+      "dosya": "donusum_olcumleri.csv",
+      "sha256": "f87ed588a2d1701d1f79ade7aa744cb731c77dd07d0caf3d6aa0e2b6edfe5509",
+      "paket_icinden_yeniden_calistirmada_ayni": true
+    },
+    {
+      "dosya": "maske_alanlari.csv",
+      "sha256": "d97dd99d5f1d72f4c964a098dc12b39c5b2ef63d972e038519f03ba1222e63b2",
+      "paket_icinden_yeniden_calistirmada_ayni": true
+    },
+    {
+      "dosya": "ornekleme_olcumleri.csv",
+      "sha256": "cfca56b2c85ec01821f6e6969f07e911c4650e5c9fe073c25327ea62d96ec285",
+      "paket_icinden_yeniden_calistirmada_ayni": true
+    },
+    {
+      "dosya": "piksel_degerleri.csv",
+      "sha256": "49e1708635e86818176e2e7a320d5f5b3261fce362a1aa971a2ddec2aa130240",
+      "paket_icinden_yeniden_calistirmada_ayni": true
+    },
+    {
+      "dosya": "sonuc_tablosu.csv",
+      "sha256": "78399de8f58ee42b5d1a4da568b7caae26930106fcfa607e48e7e5d6f32aa3a6",
+      "paket_icinden_yeniden_calistirmada_ayni": true
+    }
+  ],
+  "pdf_sayfa_sayisi": 2,
+  "pdf_gorsel_inceleme": "Iki sayfa PNG olarak render edilip incelendi; tasma, kesilme veya bozuk Turkce karakter gozlenmedi.",
+  "uretici_gorsel_kullanildi": false
+}
